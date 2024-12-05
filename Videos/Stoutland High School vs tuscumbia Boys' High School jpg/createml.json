@@ -1,0 +1,4733 @@
+[
+    {
+        "image": "00002.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 363.0,
+                    "y": 299.5,
+                    "width": 40,
+                    "height": 113
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 396.5,
+                    "y": 289.0,
+                    "width": 39,
+                    "height": 130
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 389.5,
+                    "y": 233.0,
+                    "width": 19,
+                    "height": 20
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 532.5,
+                    "y": 365.5,
+                    "width": 59,
+                    "height": 97
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 687.5,
+                    "y": 431.5,
+                    "width": 39,
+                    "height": 115
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 871.5,
+                    "y": 321.0,
+                    "width": 31,
+                    "height": 80
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 896.0,
+                    "y": 294.5,
+                    "width": 34,
+                    "height": 97
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 653.5,
+                    "y": 302.5,
+                    "width": 31,
+                    "height": 93
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 638.0,
+                    "y": 267.0,
+                    "width": 28,
+                    "height": 72
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 671.5,
+                    "y": 334.0,
+                    "width": 35,
+                    "height": 106
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 683.5,
+                    "y": 306.5,
+                    "width": 23,
+                    "height": 111
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 662.5,
+                    "y": 249.0,
+                    "width": 23,
+                    "height": 52
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 649.0,
+                    "y": 191.0,
+                    "width": 26,
+                    "height": 76
+                }
+            }
+        ]
+    },
+    {
+        "image": "00003.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 374.5,
+                    "y": 298.5,
+                    "width": 41,
+                    "height": 119
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 405.0,
+                    "y": 287.5,
+                    "width": 42,
+                    "height": 127
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 397.0,
+                    "y": 233.5,
+                    "width": 20,
+                    "height": 19
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 530.0,
+                    "y": 362.0,
+                    "width": 48,
+                    "height": 100
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 683.5,
+                    "y": 431.0,
+                    "width": 47,
+                    "height": 112
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 881.0,
+                    "y": 322.5,
+                    "width": 36,
+                    "height": 81
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 902.0,
+                    "y": 290.0,
+                    "width": 30,
+                    "height": 94
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 663.5,
+                    "y": 301.5,
+                    "width": 37,
+                    "height": 91
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 642.0,
+                    "y": 266.0,
+                    "width": 34,
+                    "height": 74
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 685.5,
+                    "y": 334.5,
+                    "width": 37,
+                    "height": 103
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 698.5,
+                    "y": 307.5,
+                    "width": 27,
+                    "height": 109
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 675.5,
+                    "y": 250.5,
+                    "width": 25,
+                    "height": 55
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 662.5,
+                    "y": 190.5,
+                    "width": 27,
+                    "height": 75
+                }
+            }
+        ]
+    },
+    {
+        "image": "00004.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 397.0,
+                    "y": 315.5,
+                    "width": 34,
+                    "height": 109
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 417.5,
+                    "y": 301.5,
+                    "width": 31,
+                    "height": 113
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 411.0,
+                    "y": 253.5,
+                    "width": 18,
+                    "height": 19
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 545.0,
+                    "y": 361.0,
+                    "width": 44,
+                    "height": 102
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 685.0,
+                    "y": 448.5,
+                    "width": 70,
+                    "height": 113
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 894.0,
+                    "y": 331.5,
+                    "width": 36,
+                    "height": 89
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 914.0,
+                    "y": 282.5,
+                    "width": 24,
+                    "height": 91
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 680.0,
+                    "y": 306.0,
+                    "width": 50,
+                    "height": 92
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 659.0,
+                    "y": 263.0,
+                    "width": 34,
+                    "height": 80
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 712.0,
+                    "y": 345.5,
+                    "width": 40,
+                    "height": 117
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 727.5,
+                    "y": 319.0,
+                    "width": 33,
+                    "height": 106
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 689.5,
+                    "y": 252.0,
+                    "width": 21,
+                    "height": 54
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 690.0,
+                    "y": 191.5,
+                    "width": 28,
+                    "height": 75
+                }
+            }
+        ]
+    },
+    {
+        "image": "00005.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 414.5,
+                    "y": 314.5,
+                    "width": 25,
+                    "height": 107
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 437.0,
+                    "y": 310.5,
+                    "width": 42,
+                    "height": 125
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 427.0,
+                    "y": 256.0,
+                    "width": 18,
+                    "height": 18
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 550.0,
+                    "y": 369.0,
+                    "width": 58,
+                    "height": 98
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 711.0,
+                    "y": 452.5,
+                    "width": 50,
+                    "height": 113
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 910.0,
+                    "y": 344.5,
+                    "width": 36,
+                    "height": 105
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 933.0,
+                    "y": 299.0,
+                    "width": 26,
+                    "height": 102
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 697.0,
+                    "y": 305.0,
+                    "width": 44,
+                    "height": 94
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 670.0,
+                    "y": 263.5,
+                    "width": 38,
+                    "height": 69
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 735.5,
+                    "y": 351.0,
+                    "width": 37,
+                    "height": 116
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 739.5,
+                    "y": 321.0,
+                    "width": 39,
+                    "height": 108
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 701.0,
+                    "y": 253.0,
+                    "width": 36,
+                    "height": 60
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 718.0,
+                    "y": 192.0,
+                    "width": 28,
+                    "height": 76
+                }
+            }
+        ]
+    },
+    {
+        "image": "00006.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 430.0,
+                    "y": 314.5,
+                    "width": 22,
+                    "height": 103
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 452.0,
+                    "y": 322.5,
+                    "width": 42,
+                    "height": 103
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 427.5,
+                    "y": 278.5,
+                    "width": 23,
+                    "height": 27
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 555.5,
+                    "y": 371.0,
+                    "width": 67,
+                    "height": 98
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 729.5,
+                    "y": 471.0,
+                    "width": 65,
+                    "height": 110
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 914.5,
+                    "y": 358.0,
+                    "width": 55,
+                    "height": 96
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 951.5,
+                    "y": 289.5,
+                    "width": 29,
+                    "height": 89
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 700.5,
+                    "y": 303.5,
+                    "width": 41,
+                    "height": 93
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 674.5,
+                    "y": 264.5,
+                    "width": 29,
+                    "height": 67
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 754.5,
+                    "y": 360.0,
+                    "width": 33,
+                    "height": 122
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 751.5,
+                    "y": 322.5,
+                    "width": 53,
+                    "height": 109
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 698.0,
+                    "y": 247.5,
+                    "width": 28,
+                    "height": 53
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 743.0,
+                    "y": 193.5,
+                    "width": 32,
+                    "height": 75
+                }
+            }
+        ]
+    },
+    {
+        "image": "00007.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 435.5,
+                    "y": 318.0,
+                    "width": 37,
+                    "height": 80
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 466.0,
+                    "y": 333.5,
+                    "width": 54,
+                    "height": 89
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 414.0,
+                    "y": 311.0,
+                    "width": 22,
+                    "height": 16
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 561.5,
+                    "y": 367.5,
+                    "width": 49,
+                    "height": 103
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 736.5,
+                    "y": 483.0,
+                    "width": 85,
+                    "height": 130
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 927.0,
+                    "y": 368.5,
+                    "width": 38,
+                    "height": 99
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 967.0,
+                    "y": 296.5,
+                    "width": 34,
+                    "height": 91
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 698.5,
+                    "y": 298.0,
+                    "width": 43,
+                    "height": 84
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 680.5,
+                    "y": 245.5,
+                    "width": 37,
+                    "height": 43
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 769.5,
+                    "y": 363.0,
+                    "width": 35,
+                    "height": 120
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 751.0,
+                    "y": 326.0,
+                    "width": 22,
+                    "height": 106
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 692.0,
+                    "y": 243.0,
+                    "width": 22,
+                    "height": 54
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 768.0,
+                    "y": 196.5,
+                    "width": 30,
+                    "height": 77
+                }
+            }
+        ]
+    },
+    {
+        "image": "00008.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 430.5,
+                    "y": 333.0,
+                    "width": 39,
+                    "height": 86
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 479.0,
+                    "y": 342.0,
+                    "width": 72,
+                    "height": 86
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 405.0,
+                    "y": 367.5,
+                    "width": 18,
+                    "height": 17
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 581.5,
+                    "y": 382.5,
+                    "width": 45,
+                    "height": 105
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 732.5,
+                    "y": 481.5,
+                    "width": 73,
+                    "height": 127
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 940.5,
+                    "y": 381.5,
+                    "width": 37,
+                    "height": 105
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 994.0,
+                    "y": 299.5,
+                    "width": 26,
+                    "height": 95
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 691.5,
+                    "y": 297.5,
+                    "width": 45,
+                    "height": 89
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 685.5,
+                    "y": 254.5,
+                    "width": 25,
+                    "height": 55
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 781.5,
+                    "y": 367.0,
+                    "width": 47,
+                    "height": 118
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 752.5,
+                    "y": 336.0,
+                    "width": 41,
+                    "height": 120
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 690.5,
+                    "y": 254.0,
+                    "width": 23,
+                    "height": 62
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 791.0,
+                    "y": 200.5,
+                    "width": 30,
+                    "height": 79
+                }
+            }
+        ]
+    },
+    {
+        "image": "00009.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 436.5,
+                    "y": 325.0,
+                    "width": 51,
+                    "height": 64
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 448.5,
+                    "y": 345.5,
+                    "width": 75,
+                    "height": 77
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 408.5,
+                    "y": 361.0,
+                    "width": 19,
+                    "height": 18
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 601.5,
+                    "y": 394.0,
+                    "width": 51,
+                    "height": 110
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 721.5,
+                    "y": 496.5,
+                    "width": 77,
+                    "height": 119
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 941.0,
+                    "y": 400.5,
+                    "width": 42,
+                    "height": 97
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 1013.5,
+                    "y": 307.0,
+                    "width": 39,
+                    "height": 92
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 685.5,
+                    "y": 301.0,
+                    "width": 57,
+                    "height": 88
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 692.5,
+                    "y": 267.0,
+                    "width": 51,
+                    "height": 72
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 800.5,
+                    "y": 374.0,
+                    "width": 43,
+                    "height": 118
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 760.0,
+                    "y": 359.0,
+                    "width": 66,
+                    "height": 118
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 680.5,
+                    "y": 237.5,
+                    "width": 23,
+                    "height": 29
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 815.5,
+                    "y": 206.0,
+                    "width": 27,
+                    "height": 74
+                }
+            }
+        ]
+    },
+    {
+        "image": "00010.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 402.0,
+                    "y": 355.5,
+                    "width": 50,
+                    "height": 91
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 426.0,
+                    "y": 363.5,
+                    "width": 88,
+                    "height": 85
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 444.5,
+                    "y": 409.5,
+                    "width": 17,
+                    "height": 15
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 569.5,
+                    "y": 399.5,
+                    "width": 55,
+                    "height": 101
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 704.0,
+                    "y": 505.5,
+                    "width": 76,
+                    "height": 121
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 917.0,
+                    "y": 415.0,
+                    "width": 52,
+                    "height": 106
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 1004.5,
+                    "y": 305.0,
+                    "width": 51,
+                    "height": 96
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 657.0,
+                    "y": 296.5,
+                    "width": 58,
+                    "height": 95
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 659.5,
+                    "y": 267.5,
+                    "width": 41,
+                    "height": 71
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 801.0,
+                    "y": 382.0,
+                    "width": 40,
+                    "height": 126
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 742.0,
+                    "y": 368.0,
+                    "width": 40,
+                    "height": 106
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 646.5,
+                    "y": 233.5,
+                    "width": 21,
+                    "height": 35
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 810.5,
+                    "y": 207.5,
+                    "width": 33,
+                    "height": 73
+                }
+            }
+        ]
+    },
+    {
+        "image": "00011.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 378.0,
+                    "y": 333.0,
+                    "width": 52,
+                    "height": 30
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 393.0,
+                    "y": 371.0,
+                    "width": 56,
+                    "height": 70
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 466.5,
+                    "y": 400.0,
+                    "width": 19,
+                    "height": 18
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 548.0,
+                    "y": 397.0,
+                    "width": 64,
+                    "height": 92
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 657.0,
+                    "y": 509.5,
+                    "width": 70,
+                    "height": 113
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 877.5,
+                    "y": 425.0,
+                    "width": 53,
+                    "height": 100
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 983.5,
+                    "y": 297.0,
+                    "width": 27,
+                    "height": 98
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 618.0,
+                    "y": 296.0,
+                    "width": 32,
+                    "height": 88
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 629.0,
+                    "y": 267.5,
+                    "width": 40,
+                    "height": 71
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 804.5,
+                    "y": 392.0,
+                    "width": 39,
+                    "height": 130
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 712.5,
+                    "y": 364.5,
+                    "width": 75,
+                    "height": 111
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 610.0,
+                    "y": 233.5,
+                    "width": 14,
+                    "height": 35
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 801.0,
+                    "y": 202.5,
+                    "width": 24,
+                    "height": 85
+                }
+            }
+        ]
+    },
+    {
+        "image": "00012.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 375.5,
+                    "y": 360.5,
+                    "width": 87,
+                    "height": 97
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 383.5,
+                    "y": 378.0,
+                    "width": 67,
+                    "height": 90
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 500.0,
+                    "y": 405.0,
+                    "width": 18,
+                    "height": 18
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 528.5,
+                    "y": 416.0,
+                    "width": 51,
+                    "height": 98
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 613.5,
+                    "y": 507.5,
+                    "width": 69,
+                    "height": 111
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 852.0,
+                    "y": 445.0,
+                    "width": 54,
+                    "height": 116
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 963.0,
+                    "y": 295.0,
+                    "width": 54,
+                    "height": 90
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 598.5,
+                    "y": 299.5,
+                    "width": 63,
+                    "height": 87
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 610.5,
+                    "y": 273.0,
+                    "width": 23,
+                    "height": 72
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 817.0,
+                    "y": 398.0,
+                    "width": 40,
+                    "height": 124
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 676.0,
+                    "y": 360.5,
+                    "width": 36,
+                    "height": 109
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 578.5,
+                    "y": 254.5,
+                    "width": 39,
+                    "height": 67
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 798.5,
+                    "y": 212.0,
+                    "width": 49,
+                    "height": 72
+                }
+            }
+        ]
+    },
+    {
+        "image": "00013.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 380.5,
+                    "y": 358.0,
+                    "width": 33,
+                    "height": 100
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 386.5,
+                    "y": 389.0,
+                    "width": 61,
+                    "height": 90
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 533.0,
+                    "y": 410.0,
+                    "width": 22,
+                    "height": 20
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 545.0,
+                    "y": 414.0,
+                    "width": 36,
+                    "height": 104
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 588.0,
+                    "y": 523.0,
+                    "width": 68,
+                    "height": 124
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 820.0,
+                    "y": 449.0,
+                    "width": 92,
+                    "height": 112
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 980.0,
+                    "y": 300.5,
+                    "width": 56,
+                    "height": 81
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 597.5,
+                    "y": 300.5,
+                    "width": 31,
+                    "height": 87
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 612.0,
+                    "y": 283.0,
+                    "width": 30,
+                    "height": 68
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 836.5,
+                    "y": 410.0,
+                    "width": 49,
+                    "height": 128
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 659.0,
+                    "y": 366.0,
+                    "width": 48,
+                    "height": 108
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 587.5,
+                    "y": 252.5,
+                    "width": 23,
+                    "height": 59
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 820.0,
+                    "y": 214.5,
+                    "width": 26,
+                    "height": 75
+                }
+            }
+        ]
+    },
+    {
+        "image": "00014.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 419.5,
+                    "y": 361.5,
+                    "width": 41,
+                    "height": 99
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 431.0,
+                    "y": 393.0,
+                    "width": 66,
+                    "height": 88
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 553.0,
+                    "y": 406.5,
+                    "width": 20,
+                    "height": 19
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 572.0,
+                    "y": 416.0,
+                    "width": 38,
+                    "height": 98
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 615.5,
+                    "y": 521.0,
+                    "width": 49,
+                    "height": 134
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 799.5,
+                    "y": 466.0,
+                    "width": 69,
+                    "height": 98
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 996.0,
+                    "y": 307.5,
+                    "width": 48,
+                    "height": 93
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 621.5,
+                    "y": 307.0,
+                    "width": 33,
+                    "height": 88
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 652.5,
+                    "y": 290.5,
+                    "width": 27,
+                    "height": 61
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 878.5,
+                    "y": 429.5,
+                    "width": 51,
+                    "height": 133
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 680.0,
+                    "y": 378.0,
+                    "width": 48,
+                    "height": 108
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 609.0,
+                    "y": 262.0,
+                    "width": 32,
+                    "height": 66
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 862.0,
+                    "y": 224.0,
+                    "width": 32,
+                    "height": 76
+                }
+            }
+        ]
+    },
+    {
+        "image": "00015.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 464.0,
+                    "y": 360.0,
+                    "width": 46,
+                    "height": 102
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 502.0,
+                    "y": 383.0,
+                    "width": 40,
+                    "height": 88
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 601.5,
+                    "y": 430.0,
+                    "width": 45,
+                    "height": 102
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 644.5,
+                    "y": 500.0,
+                    "width": 53,
+                    "height": 118
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 804.0,
+                    "y": 489.0,
+                    "width": 62,
+                    "height": 112
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 1022.5,
+                    "y": 314.5,
+                    "width": 33,
+                    "height": 93
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 655.0,
+                    "y": 314.0,
+                    "width": 52,
+                    "height": 86
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 710.0,
+                    "y": 289.5,
+                    "width": 46,
+                    "height": 59
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 921.5,
+                    "y": 454.0,
+                    "width": 51,
+                    "height": 150
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 712.0,
+                    "y": 389.0,
+                    "width": 60,
+                    "height": 112
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 641.0,
+                    "y": 268.5,
+                    "width": 40,
+                    "height": 69
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 912.5,
+                    "y": 231.0,
+                    "width": 31,
+                    "height": 80
+                }
+            }
+        ]
+    },
+    {
+        "image": "00016.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 489.5,
+                    "y": 358.0,
+                    "width": 41,
+                    "height": 112
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 556.5,
+                    "y": 395.0,
+                    "width": 57,
+                    "height": 94
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 639.5,
+                    "y": 438.5,
+                    "width": 15,
+                    "height": 21
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 629.5,
+                    "y": 443.5,
+                    "width": 43,
+                    "height": 103
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 663.5,
+                    "y": 511.5,
+                    "width": 67,
+                    "height": 117
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 813.0,
+                    "y": 521.5,
+                    "width": 80,
+                    "height": 125
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 1039.5,
+                    "y": 322.0,
+                    "width": 45,
+                    "height": 98
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 690.0,
+                    "y": 316.0,
+                    "width": 60,
+                    "height": 82
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 757.5,
+                    "y": 295.0,
+                    "width": 51,
+                    "height": 64
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 951.5,
+                    "y": 481.0,
+                    "width": 63,
+                    "height": 158
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 748.5,
+                    "y": 406.0,
+                    "width": 67,
+                    "height": 116
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 675.0,
+                    "y": 272.0,
+                    "width": 48,
+                    "height": 60
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 956.0,
+                    "y": 236.5,
+                    "width": 44,
+                    "height": 81
+                }
+            }
+        ]
+    },
+    {
+        "image": "00017.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 520.0,
+                    "y": 351.5,
+                    "width": 42,
+                    "height": 109
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 620.0,
+                    "y": 385.0,
+                    "width": 70,
+                    "height": 90
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 679.0,
+                    "y": 433.5,
+                    "width": 18,
+                    "height": 19
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 656.0,
+                    "y": 460.5,
+                    "width": 54,
+                    "height": 121
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 686.0,
+                    "y": 515.5,
+                    "width": 70,
+                    "height": 123
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 839.5,
+                    "y": 540.5,
+                    "width": 85,
+                    "height": 129
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 1035.5,
+                    "y": 330.0,
+                    "width": 69,
+                    "height": 100
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 726.5,
+                    "y": 316.5,
+                    "width": 67,
+                    "height": 83
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 803.0,
+                    "y": 304.0,
+                    "width": 46,
+                    "height": 76
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 978.0,
+                    "y": 499.5,
+                    "width": 62,
+                    "height": 157
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 807.0,
+                    "y": 411.5,
+                    "width": 66,
+                    "height": 119
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 718.0,
+                    "y": 279.5,
+                    "width": 48,
+                    "height": 63
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 995.0,
+                    "y": 242.5,
+                    "width": 56,
+                    "height": 75
+                }
+            }
+        ]
+    },
+    {
+        "image": "00018.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 535.5,
+                    "y": 345.5,
+                    "width": 33,
+                    "height": 103
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 676.5,
+                    "y": 381.0,
+                    "width": 87,
+                    "height": 86
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 708.0,
+                    "y": 476.5,
+                    "width": 18,
+                    "height": 19
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 673.0,
+                    "y": 478.0,
+                    "width": 68,
+                    "height": 110
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 718.5,
+                    "y": 519.5,
+                    "width": 61,
+                    "height": 129
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 856.5,
+                    "y": 579.5,
+                    "width": 103,
+                    "height": 151
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 1034.5,
+                    "y": 319.0,
+                    "width": 65,
+                    "height": 96
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 765.0,
+                    "y": 317.5,
+                    "width": 58,
+                    "height": 81
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 842.0,
+                    "y": 308.5,
+                    "width": 62,
+                    "height": 77
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 976.5,
+                    "y": 512.5,
+                    "width": 81,
+                    "height": 155
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 848.0,
+                    "y": 429.0,
+                    "width": 70,
+                    "height": 124
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 749.5,
+                    "y": 288.5,
+                    "width": 55,
+                    "height": 75
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 1036.0,
+                    "y": 243.5,
+                    "width": 58,
+                    "height": 71
+                }
+            }
+        ]
+    },
+    {
+        "image": "00019.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 540.0,
+                    "y": 349.5,
+                    "width": 54,
+                    "height": 99
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 737.5,
+                    "y": 379.5,
+                    "width": 71,
+                    "height": 87
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 714.0,
+                    "y": 484.5,
+                    "width": 22,
+                    "height": 17
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 692.0,
+                    "y": 486.0,
+                    "width": 64,
+                    "height": 94
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 743.5,
+                    "y": 518.0,
+                    "width": 47,
+                    "height": 106
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 882.0,
+                    "y": 613.5,
+                    "width": 102,
+                    "height": 157
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 989.5,
+                    "y": 315.0,
+                    "width": 47,
+                    "height": 104
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 788.0,
+                    "y": 318.5,
+                    "width": 56,
+                    "height": 87
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 885.0,
+                    "y": 314.0,
+                    "width": 64,
+                    "height": 74
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 973.0,
+                    "y": 523.5,
+                    "width": 72,
+                    "height": 151
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 871.0,
+                    "y": 442.0,
+                    "width": 104,
+                    "height": 124
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 777.0,
+                    "y": 286.5,
+                    "width": 62,
+                    "height": 73
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 1061.0,
+                    "y": 245.5,
+                    "width": 74,
+                    "height": 81
+                }
+            }
+        ]
+    },
+    {
+        "image": "00020.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 533.5,
+                    "y": 350.5,
+                    "width": 49,
+                    "height": 93
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 786.0,
+                    "y": 374.0,
+                    "width": 74,
+                    "height": 92
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 680.0,
+                    "y": 451.0,
+                    "width": 26,
+                    "height": 18
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 700.5,
+                    "y": 493.0,
+                    "width": 59,
+                    "height": 112
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 753.5,
+                    "y": 516.5,
+                    "width": 103,
+                    "height": 103
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 921.5,
+                    "y": 626.0,
+                    "width": 147,
+                    "height": 138
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 938.5,
+                    "y": 314.0,
+                    "width": 45,
+                    "height": 88
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 799.5,
+                    "y": 311.5,
+                    "width": 59,
+                    "height": 89
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 909.0,
+                    "y": 318.0,
+                    "width": 46,
+                    "height": 80
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 960.0,
+                    "y": 540.0,
+                    "width": 74,
+                    "height": 174
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 920.5,
+                    "y": 444.0,
+                    "width": 85,
+                    "height": 108
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 802.0,
+                    "y": 288.5,
+                    "width": 46,
+                    "height": 77
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 1079.5,
+                    "y": 243.0,
+                    "width": 51,
+                    "height": 76
+                }
+            }
+        ]
+    },
+    {
+        "image": "00021.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 526.5,
+                    "y": 351.5,
+                    "width": 73,
+                    "height": 95
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 815.5,
+                    "y": 365.5,
+                    "width": 91,
+                    "height": 83
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 636.0,
+                    "y": 448.5,
+                    "width": 22,
+                    "height": 25
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 673.5,
+                    "y": 496.5,
+                    "width": 81,
+                    "height": 129
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 739.0,
+                    "y": 506.0,
+                    "width": 80,
+                    "height": 114
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 979.0,
+                    "y": 635.0,
+                    "width": 142,
+                    "height": 150
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 895.5,
+                    "y": 300.5,
+                    "width": 49,
+                    "height": 89
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 794.0,
+                    "y": 307.0,
+                    "width": 54,
+                    "height": 92
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 929.0,
+                    "y": 315.0,
+                    "width": 36,
+                    "height": 88
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 926.5,
+                    "y": 552.5,
+                    "width": 97,
+                    "height": 177
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 938.0,
+                    "y": 442.0,
+                    "width": 106,
+                    "height": 102
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 799.0,
+                    "y": 288.5,
+                    "width": 54,
+                    "height": 89
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 1060.5,
+                    "y": 232.5,
+                    "width": 69,
+                    "height": 79
+                }
+            }
+        ]
+    },
+    {
+        "image": "00022.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 521.5,
+                    "y": 351.5,
+                    "width": 51,
+                    "height": 105
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 845.0,
+                    "y": 363.0,
+                    "width": 54,
+                    "height": 94
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 594.0,
+                    "y": 441.0,
+                    "width": 18,
+                    "height": 20
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 621.5,
+                    "y": 480.0,
+                    "width": 53,
+                    "height": 142
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 706.5,
+                    "y": 506.5,
+                    "width": 87,
+                    "height": 115
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 989.0,
+                    "y": 635.0,
+                    "width": 156,
+                    "height": 168
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 841.5,
+                    "y": 284.5,
+                    "width": 49,
+                    "height": 73
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 774.5,
+                    "y": 304.0,
+                    "width": 57,
+                    "height": 100
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 915.0,
+                    "y": 309.5,
+                    "width": 68,
+                    "height": 89
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 891.0,
+                    "y": 541.5,
+                    "width": 96,
+                    "height": 163
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 967.5,
+                    "y": 444.0,
+                    "width": 89,
+                    "height": 138
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 801.5,
+                    "y": 271.5,
+                    "width": 23,
+                    "height": 81
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 1043.0,
+                    "y": 219.0,
+                    "width": 48,
+                    "height": 80
+                }
+            }
+        ]
+    },
+    {
+        "image": "00023.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 499.0,
+                    "y": 351.5,
+                    "width": 86,
+                    "height": 109
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 843.0,
+                    "y": 350.5,
+                    "width": 62,
+                    "height": 99
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 558.0,
+                    "y": 454.0,
+                    "width": 52,
+                    "height": 120
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 649.0,
+                    "y": 503.5,
+                    "width": 70,
+                    "height": 127
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 994.0,
+                    "y": 621.0,
+                    "width": 118,
+                    "height": 162
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 785.5,
+                    "y": 276.5,
+                    "width": 49,
+                    "height": 81
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 736.5,
+                    "y": 300.5,
+                    "width": 33,
+                    "height": 95
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 903.5,
+                    "y": 292.0,
+                    "width": 47,
+                    "height": 76
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 845.0,
+                    "y": 551.5,
+                    "width": 88,
+                    "height": 181
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 968.5,
+                    "y": 441.0,
+                    "width": 77,
+                    "height": 146
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 766.0,
+                    "y": 263.0,
+                    "width": 32,
+                    "height": 80
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 992.0,
+                    "y": 205.5,
+                    "width": 64,
+                    "height": 85
+                }
+            }
+        ]
+    },
+    {
+        "image": "00024.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 483.0,
+                    "y": 344.5,
+                    "width": 40,
+                    "height": 79
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 837.5,
+                    "y": 347.0,
+                    "width": 71,
+                    "height": 104
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 466.5,
+                    "y": 426.5,
+                    "width": 21,
+                    "height": 21
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 500.5,
+                    "y": 435.5,
+                    "width": 63,
+                    "height": 127
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 590.0,
+                    "y": 476.0,
+                    "width": 66,
+                    "height": 124
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 1000.5,
+                    "y": 594.5,
+                    "width": 83,
+                    "height": 149
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 736.0,
+                    "y": 271.0,
+                    "width": 38,
+                    "height": 92
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 685.0,
+                    "y": 296.0,
+                    "width": 54,
+                    "height": 98
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 888.0,
+                    "y": 284.0,
+                    "width": 32,
+                    "height": 74
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 801.0,
+                    "y": 549.5,
+                    "width": 72,
+                    "height": 171
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 952.0,
+                    "y": 418.5,
+                    "width": 104,
+                    "height": 133
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 745.0,
+                    "y": 255.0,
+                    "width": 24,
+                    "height": 82
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 942.0,
+                    "y": 198.0,
+                    "width": 42,
+                    "height": 80
+                }
+            }
+        ]
+    },
+    {
+        "image": "00025.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 464.0,
+                    "y": 378.0,
+                    "width": 44,
+                    "height": 106
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 843.0,
+                    "y": 341.0,
+                    "width": 46,
+                    "height": 96
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 398.5,
+                    "y": 395.0,
+                    "width": 25,
+                    "height": 20
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 431.0,
+                    "y": 415.0,
+                    "width": 48,
+                    "height": 116
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 537.0,
+                    "y": 457.0,
+                    "width": 44,
+                    "height": 134
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 992.5,
+                    "y": 562.0,
+                    "width": 111,
+                    "height": 148
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 690.0,
+                    "y": 274.0,
+                    "width": 32,
+                    "height": 84
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 653.5,
+                    "y": 295.0,
+                    "width": 41,
+                    "height": 96
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 862.5,
+                    "y": 276.5,
+                    "width": 23,
+                    "height": 55
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 766.0,
+                    "y": 540.5,
+                    "width": 92,
+                    "height": 165
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 965.0,
+                    "y": 403.5,
+                    "width": 86,
+                    "height": 141
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 714.5,
+                    "y": 251.0,
+                    "width": 25,
+                    "height": 72
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 910.0,
+                    "y": 193.0,
+                    "width": 26,
+                    "height": 82
+                }
+            }
+        ]
+    },
+    {
+        "image": "00026.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 425.0,
+                    "y": 380.0,
+                    "width": 70,
+                    "height": 122
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 820.0,
+                    "y": 331.0,
+                    "width": 78,
+                    "height": 94
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 329.5,
+                    "y": 393.5,
+                    "width": 19,
+                    "height": 19
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 351.0,
+                    "y": 400.5,
+                    "width": 42,
+                    "height": 103
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 478.5,
+                    "y": 434.0,
+                    "width": 49,
+                    "height": 96
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 983.5,
+                    "y": 537.0,
+                    "width": 67,
+                    "height": 144
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 644.5,
+                    "y": 275.0,
+                    "width": 37,
+                    "height": 86
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 605.5,
+                    "y": 299.5,
+                    "width": 37,
+                    "height": 91
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 816.5,
+                    "y": 279.5,
+                    "width": 43,
+                    "height": 85
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 723.5,
+                    "y": 539.5,
+                    "width": 99,
+                    "height": 163
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 923.5,
+                    "y": 370.5,
+                    "width": 67,
+                    "height": 115
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 675.0,
+                    "y": 252.0,
+                    "width": 26,
+                    "height": 72
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 844.5,
+                    "y": 192.5,
+                    "width": 39,
+                    "height": 77
+                }
+            }
+        ]
+    },
+    {
+        "image": "00027.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 385.5,
+                    "y": 374.0,
+                    "width": 49,
+                    "height": 112
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 802.0,
+                    "y": 330.0,
+                    "width": 50,
+                    "height": 88
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 259.5,
+                    "y": 400.5,
+                    "width": 9,
+                    "height": 19
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 278.5,
+                    "y": 407.5,
+                    "width": 57,
+                    "height": 111
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 424.0,
+                    "y": 428.5,
+                    "width": 70,
+                    "height": 111
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 945.5,
+                    "y": 512.5,
+                    "width": 59,
+                    "height": 121
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 610.0,
+                    "y": 277.0,
+                    "width": 46,
+                    "height": 74
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 558.0,
+                    "y": 307.0,
+                    "width": 58,
+                    "height": 86
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 789.0,
+                    "y": 280.0,
+                    "width": 48,
+                    "height": 84
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 689.5,
+                    "y": 548.5,
+                    "width": 63,
+                    "height": 185
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 883.5,
+                    "y": 355.0,
+                    "width": 59,
+                    "height": 122
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 647.0,
+                    "y": 259.5,
+                    "width": 36,
+                    "height": 77
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 803.0,
+                    "y": 195.0,
+                    "width": 20,
+                    "height": 74
+                }
+            }
+        ]
+    },
+    {
+        "image": "00028.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 340.5,
+                    "y": 387.5,
+                    "width": 67,
+                    "height": 125
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 770.5,
+                    "y": 337.5,
+                    "width": 51,
+                    "height": 91
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 196.0,
+                    "y": 383.5,
+                    "width": 14,
+                    "height": 19
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 211.0,
+                    "y": 396.5,
+                    "width": 50,
+                    "height": 93
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 387.0,
+                    "y": 420.0,
+                    "width": 50,
+                    "height": 106
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 912.0,
+                    "y": 498.0,
+                    "width": 82,
+                    "height": 122
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 566.0,
+                    "y": 289.5,
+                    "width": 34,
+                    "height": 85
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 531.5,
+                    "y": 318.0,
+                    "width": 29,
+                    "height": 92
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 752.0,
+                    "y": 280.0,
+                    "width": 30,
+                    "height": 80
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 648.5,
+                    "y": 559.0,
+                    "width": 77,
+                    "height": 178
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 854.5,
+                    "y": 338.0,
+                    "width": 57,
+                    "height": 106
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 604.5,
+                    "y": 265.0,
+                    "width": 37,
+                    "height": 76
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 747.5,
+                    "y": 196.5,
+                    "width": 35,
+                    "height": 77
+                }
+            }
+        ]
+    },
+    {
+        "image": "00029.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 329.5,
+                    "y": 385.5,
+                    "width": 47,
+                    "height": 111
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 750.5,
+                    "y": 340.0,
+                    "width": 33,
+                    "height": 94
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 156.5,
+                    "y": 396.5,
+                    "width": 51,
+                    "height": 105
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 358.0,
+                    "y": 443.5,
+                    "width": 62,
+                    "height": 111
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 891.0,
+                    "y": 484.0,
+                    "width": 56,
+                    "height": 126
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 537.0,
+                    "y": 296.5,
+                    "width": 42,
+                    "height": 77
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 491.0,
+                    "y": 324.0,
+                    "width": 50,
+                    "height": 96
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 717.0,
+                    "y": 280.0,
+                    "width": 26,
+                    "height": 88
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 596.5,
+                    "y": 573.5,
+                    "width": 73,
+                    "height": 177
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 813.5,
+                    "y": 328.0,
+                    "width": 33,
+                    "height": 116
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 571.5,
+                    "y": 274.5,
+                    "width": 25,
+                    "height": 77
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 719.0,
+                    "y": 208.0,
+                    "width": 16,
+                    "height": 62
+                }
+            }
+        ]
+    },
+    {
+        "image": "00030.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 337.0,
+                    "y": 377.0,
+                    "width": 80,
+                    "height": 102
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 743.5,
+                    "y": 345.0,
+                    "width": 53,
+                    "height": 92
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 197.5,
+                    "y": 392.5,
+                    "width": 19,
+                    "height": 15
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 141.5,
+                    "y": 390.0,
+                    "width": 61,
+                    "height": 104
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 339.0,
+                    "y": 443.0,
+                    "width": 76,
+                    "height": 110
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 904.5,
+                    "y": 489.0,
+                    "width": 59,
+                    "height": 132
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 551.0,
+                    "y": 301.0,
+                    "width": 36,
+                    "height": 84
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 511.5,
+                    "y": 334.5,
+                    "width": 55,
+                    "height": 97
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 708.0,
+                    "y": 272.5,
+                    "width": 24,
+                    "height": 79
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 574.0,
+                    "y": 589.0,
+                    "width": 66,
+                    "height": 186
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 800.0,
+                    "y": 316.0,
+                    "width": 26,
+                    "height": 96
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 574.0,
+                    "y": 279.5,
+                    "width": 38,
+                    "height": 79
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 700.0,
+                    "y": 209.5,
+                    "width": 36,
+                    "height": 65
+                }
+            }
+        ]
+    },
+    {
+        "image": "00031.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 372.0,
+                    "y": 374.5,
+                    "width": 48,
+                    "height": 103
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 738.5,
+                    "y": 344.0,
+                    "width": 41,
+                    "height": 96
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 175.0,
+                    "y": 372.5,
+                    "width": 18,
+                    "height": 17
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 129.5,
+                    "y": 382.0,
+                    "width": 67,
+                    "height": 90
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 341.5,
+                    "y": 439.5,
+                    "width": 49,
+                    "height": 121
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 886.5,
+                    "y": 472.5,
+                    "width": 47,
+                    "height": 125
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 549.5,
+                    "y": 303.0,
+                    "width": 63,
+                    "height": 86
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 485.5,
+                    "y": 335.0,
+                    "width": 57,
+                    "height": 100
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 685.5,
+                    "y": 271.5,
+                    "width": 23,
+                    "height": 73
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 539.0,
+                    "y": 610.0,
+                    "width": 66,
+                    "height": 196
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 780.0,
+                    "y": 310.5,
+                    "width": 34,
+                    "height": 107
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 548.5,
+                    "y": 261.5,
+                    "width": 19,
+                    "height": 39
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 688.5,
+                    "y": 214.5,
+                    "width": 33,
+                    "height": 65
+                }
+            }
+        ]
+    },
+    {
+        "image": "00032.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 372.0,
+                    "y": 379.0,
+                    "width": 32,
+                    "height": 106
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 730.5,
+                    "y": 353.0,
+                    "width": 59,
+                    "height": 98
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 131.5,
+                    "y": 354.0,
+                    "width": 21,
+                    "height": 18
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 100.0,
+                    "y": 381.5,
+                    "width": 74,
+                    "height": 105
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 336.5,
+                    "y": 433.0,
+                    "width": 33,
+                    "height": 108
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 872.0,
+                    "y": 458.0,
+                    "width": 36,
+                    "height": 118
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 549.0,
+                    "y": 308.0,
+                    "width": 42,
+                    "height": 94
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 481.5,
+                    "y": 343.0,
+                    "width": 35,
+                    "height": 106
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 654.5,
+                    "y": 266.0,
+                    "width": 21,
+                    "height": 68
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 497.0,
+                    "y": 626.0,
+                    "width": 68,
+                    "height": 186
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 750.5,
+                    "y": 304.0,
+                    "width": 27,
+                    "height": 96
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 525.5,
+                    "y": 289.0,
+                    "width": 27,
+                    "height": 84
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 675.0,
+                    "y": 215.5,
+                    "width": 34,
+                    "height": 65
+                }
+            }
+        ]
+    },
+    {
+        "image": "00033.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 393.0,
+                    "y": 378.0,
+                    "width": 84,
+                    "height": 108
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 720.0,
+                    "y": 351.5,
+                    "width": 28,
+                    "height": 105
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 109.0,
+                    "y": 352.0,
+                    "width": 20,
+                    "height": 18
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 86.0,
+                    "y": 376.0,
+                    "width": 54,
+                    "height": 104
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 337.0,
+                    "y": 426.5,
+                    "width": 72,
+                    "height": 107
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 862.0,
+                    "y": 455.0,
+                    "width": 58,
+                    "height": 108
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 567.0,
+                    "y": 310.5,
+                    "width": 30,
+                    "height": 91
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 477.0,
+                    "y": 347.5,
+                    "width": 64,
+                    "height": 105
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 632.0,
+                    "y": 265.5,
+                    "width": 22,
+                    "height": 79
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 466.0,
+                    "y": 633.0,
+                    "width": 76,
+                    "height": 172
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 724.0,
+                    "y": 286.0,
+                    "width": 22,
+                    "height": 78
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 517.0,
+                    "y": 294.5,
+                    "width": 46,
+                    "height": 87
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 666.0,
+                    "y": 217.5,
+                    "width": 28,
+                    "height": 73
+                }
+            }
+        ]
+    },
+    {
+        "image": "00034.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 436.0,
+                    "y": 378.0,
+                    "width": 80,
+                    "height": 122
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 722.0,
+                    "y": 356.5,
+                    "width": 50,
+                    "height": 105
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 114.0,
+                    "y": 363.5,
+                    "width": 26,
+                    "height": 17
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 77.5,
+                    "y": 367.0,
+                    "width": 67,
+                    "height": 92
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 337.0,
+                    "y": 422.5,
+                    "width": 42,
+                    "height": 117
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 857.0,
+                    "y": 453.0,
+                    "width": 60,
+                    "height": 116
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 580.0,
+                    "y": 311.0,
+                    "width": 58,
+                    "height": 96
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 479.5,
+                    "y": 350.0,
+                    "width": 43,
+                    "height": 114
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 612.5,
+                    "y": 259.5,
+                    "width": 21,
+                    "height": 69
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 450.5,
+                    "y": 636.5,
+                    "width": 85,
+                    "height": 165
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 703.5,
+                    "y": 295.0,
+                    "width": 23,
+                    "height": 94
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 512.0,
+                    "y": 300.5,
+                    "width": 30,
+                    "height": 87
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 669.5,
+                    "y": 219.0,
+                    "width": 45,
+                    "height": 76
+                }
+            }
+        ]
+    },
+    {
+        "image": "00035.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 478.0,
+                    "y": 371.5,
+                    "width": 48,
+                    "height": 119
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 722.5,
+                    "y": 353.0,
+                    "width": 51,
+                    "height": 102
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 148.5,
+                    "y": 401.5,
+                    "width": 19,
+                    "height": 19
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 84.5,
+                    "y": 363.0,
+                    "width": 45,
+                    "height": 102
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 352.5,
+                    "y": 404.0,
+                    "width": 39,
+                    "height": 102
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 870.0,
+                    "y": 446.5,
+                    "width": 46,
+                    "height": 119
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 601.5,
+                    "y": 313.0,
+                    "width": 31,
+                    "height": 98
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 487.0,
+                    "y": 329.0,
+                    "width": 34,
+                    "height": 76
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 598.0,
+                    "y": 239.0,
+                    "width": 20,
+                    "height": 50
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 442.0,
+                    "y": 636.5,
+                    "width": 82,
+                    "height": 165
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 692.5,
+                    "y": 294.0,
+                    "width": 33,
+                    "height": 98
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 523.5,
+                    "y": 303.0,
+                    "width": 49,
+                    "height": 86
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 679.0,
+                    "y": 211.5,
+                    "width": 24,
+                    "height": 97
+                }
+            }
+        ]
+    },
+    {
+        "image": "00036.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 522.5,
+                    "y": 364.0,
+                    "width": 73,
+                    "height": 120
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 740.5,
+                    "y": 348.5,
+                    "width": 31,
+                    "height": 111
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 140.5,
+                    "y": 349.5,
+                    "width": 19,
+                    "height": 17
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 108.5,
+                    "y": 356.0,
+                    "width": 41,
+                    "height": 96
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 364.0,
+                    "y": 391.5,
+                    "width": 48,
+                    "height": 111
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 872.5,
+                    "y": 457.5,
+                    "width": 59,
+                    "height": 115
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 630.5,
+                    "y": 305.5,
+                    "width": 45,
+                    "height": 93
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 491.5,
+                    "y": 343.5,
+                    "width": 41,
+                    "height": 121
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 586.0,
+                    "y": 243.0,
+                    "width": 22,
+                    "height": 72
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 432.5,
+                    "y": 635.5,
+                    "width": 81,
+                    "height": 167
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 683.5,
+                    "y": 285.0,
+                    "width": 29,
+                    "height": 96
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 512.0,
+                    "y": 285.5,
+                    "width": 26,
+                    "height": 53
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 697.5,
+                    "y": 217.5,
+                    "width": 27,
+                    "height": 75
+                }
+            }
+        ]
+    },
+    {
+        "image": "00037.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 568.0,
+                    "y": 360.5,
+                    "width": 40,
+                    "height": 127
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 753.5,
+                    "y": 343.0,
+                    "width": 47,
+                    "height": 94
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 146.0,
+                    "y": 317.0,
+                    "width": 18,
+                    "height": 16
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 127.0,
+                    "y": 342.5,
+                    "width": 64,
+                    "height": 91
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 366.0,
+                    "y": 380.5,
+                    "width": 52,
+                    "height": 103
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 864.0,
+                    "y": 455.5,
+                    "width": 62,
+                    "height": 121
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 659.0,
+                    "y": 306.0,
+                    "width": 36,
+                    "height": 100
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 502.5,
+                    "y": 339.5,
+                    "width": 41,
+                    "height": 113
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 580.5,
+                    "y": 237.5,
+                    "width": 21,
+                    "height": 65
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 430.0,
+                    "y": 635.0,
+                    "width": 80,
+                    "height": 168
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 684.0,
+                    "y": 283.0,
+                    "width": 38,
+                    "height": 94
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 520.0,
+                    "y": 305.5,
+                    "width": 44,
+                    "height": 91
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 712.5,
+                    "y": 217.0,
+                    "width": 25,
+                    "height": 78
+                }
+            }
+        ]
+    },
+    {
+        "image": "00038.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 615.0,
+                    "y": 347.0,
+                    "width": 64,
+                    "height": 118
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 778.0,
+                    "y": 342.5,
+                    "width": 58,
+                    "height": 99
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 163.0,
+                    "y": 300.5,
+                    "width": 20,
+                    "height": 17
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 146.5,
+                    "y": 336.5,
+                    "width": 31,
+                    "height": 101
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 385.5,
+                    "y": 363.0,
+                    "width": 35,
+                    "height": 102
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 838.5,
+                    "y": 456.5,
+                    "width": 49,
+                    "height": 119
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 682.0,
+                    "y": 302.0,
+                    "width": 46,
+                    "height": 96
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 510.0,
+                    "y": 335.0,
+                    "width": 38,
+                    "height": 118
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 573.5,
+                    "y": 230.0,
+                    "width": 19,
+                    "height": 60
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 434.5,
+                    "y": 630.0,
+                    "width": 79,
+                    "height": 178
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 676.0,
+                    "y": 276.5,
+                    "width": 32,
+                    "height": 101
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 516.0,
+                    "y": 307.5,
+                    "width": 38,
+                    "height": 91
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 724.5,
+                    "y": 214.5,
+                    "width": 41,
+                    "height": 81
+                }
+            }
+        ]
+    },
+    {
+        "image": "00039.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 643.5,
+                    "y": 336.0,
+                    "width": 53,
+                    "height": 128
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 784.5,
+                    "y": 342.5,
+                    "width": 41,
+                    "height": 109
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 188.5,
+                    "y": 310.5,
+                    "width": 19,
+                    "height": 15
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 168.5,
+                    "y": 325.0,
+                    "width": 59,
+                    "height": 86
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 392.5,
+                    "y": 351.0,
+                    "width": 39,
+                    "height": 98
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 813.0,
+                    "y": 449.0,
+                    "width": 62,
+                    "height": 126
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 709.5,
+                    "y": 294.5,
+                    "width": 25,
+                    "height": 99
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 511.0,
+                    "y": 325.0,
+                    "width": 36,
+                    "height": 116
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 560.0,
+                    "y": 222.5,
+                    "width": 20,
+                    "height": 73
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 439.5,
+                    "y": 625.0,
+                    "width": 87,
+                    "height": 188
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 667.0,
+                    "y": 266.5,
+                    "width": 50,
+                    "height": 93
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 502.0,
+                    "y": 262.5,
+                    "width": 14,
+                    "height": 17
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 738.0,
+                    "y": 214.0,
+                    "width": 24,
+                    "height": 82
+                }
+            }
+        ]
+    },
+    {
+        "image": "00040.jpg",
+        "annotations": [
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 656.5,
+                    "y": 320.5,
+                    "width": 41,
+                    "height": 115
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 809.5,
+                    "y": 348.5,
+                    "width": 37,
+                    "height": 115
+                }
+            },
+            {
+                "label": "basketball",
+                "coordinates": {
+                    "x": 212.0,
+                    "y": 342.5,
+                    "width": 20,
+                    "height": 17
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 192.0,
+                    "y": 324.0,
+                    "width": 52,
+                    "height": 86
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 400.0,
+                    "y": 336.0,
+                    "width": 46,
+                    "height": 102
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 778.5,
+                    "y": 454.0,
+                    "width": 79,
+                    "height": 130
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 736.5,
+                    "y": 295.0,
+                    "width": 47,
+                    "height": 90
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 517.0,
+                    "y": 318.5,
+                    "width": 46,
+                    "height": 113
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 552.5,
+                    "y": 221.0,
+                    "width": 19,
+                    "height": 74
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 444.5,
+                    "y": 624.0,
+                    "width": 87,
+                    "height": 190
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 629.5,
+                    "y": 256.5,
+                    "width": 37,
+                    "height": 79
+                }
+            },
+            {
+                "label": "player",
+                "coordinates": {
+                    "x": 507.0,
+                    "y": 303.0,
+                    "width": 30,
+                    "height": 100
+                }
+            },
+            {
+                "label": "referee",
+                "coordinates": {
+                    "x": 748.0,
+                    "y": 212.0,
+                    "width": 40,
+                    "height": 86
+                }
+            }
+        ]
+    }
+]
