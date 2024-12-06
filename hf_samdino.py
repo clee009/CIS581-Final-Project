@@ -356,10 +356,10 @@ def save_frames_as_video_opencv(frames_list, output_video_path, fps=24):
 
 def process_video(video_path,
                   detector="Grounding DINO",
-                  dino_box_thresholds=[0.35, 0.35],
-                  dino_text_thresholds=[0.35, 0.35],
-                  yolo_confidence=0.4,
-                  yolo_iou_threshold=0.8,
+                  dino_box_threshold=[0.35, 0.35],
+                  dino_text_threshold=[0.35, 0.35],
+                  yolo_confidence=[0.4, 0.75],
+                  yolo_iou_threshold=[0.8, 0.5],
                   frame_len=100,
                   frame_stride=5,
                   gif_duration=100):
@@ -367,6 +367,7 @@ def process_video(video_path,
     """
 
     # Convert video to video frames
+    print("Converting video to video frames")
     video_to_frames(video_path, output_dir="output_video_frames")
 
     # Select available device
@@ -392,7 +393,7 @@ def process_video(video_path,
             start_frame = idx
             detected_labels, detected_bboxes = dino_detect(processor, model, frame_names, 
                                                            start_frame, processed_labels,
-                                                           dino_box_thresholds, dino_text_thresholds)
+                                                           dino_box_threshold, dino_text_threshold)
             string_counts = Counter(detected_labels)
             print(string_counts)
             if "basketball" in string_counts:
@@ -404,23 +405,38 @@ def process_video(video_path,
     elif detector == "YOLO":
         print("Object detection of starting frame using YOLO")
         load_dotenv()
-        api_key = os.getenv("ROBOFLOW_API_KEY")
-        if api_key:
-            print(f"API Key Loaded: {api_key}")
+        api_key_bball = os.getenv("ROBOFLOW_API_KEY_BASKETBALL")
+        # api_key_all = os.getenv("ROBOFLOW_API_KEY_ALL")
+        api_key_player_ref = os.getenv("ROBOFLOW_API_KEY_PLAYER_REFEREE")
 
-        model = inference.get_model(
-            model_id="basketball-game-object-detection-tdk5a/4",
-            api_key=api_key
+        model_bball = inference.get_model(
+            model_id="autozooming-basketball/2",
+            api_key=api_key_bball
         )
+        model_player_ref = inference.get_model(
+            model_id="autozooming-players-referees/1",
+            api_key=api_key_player_ref
+        )
+        # model_all = inference.get_model(
+        #     model_id="basketball-game-object-detection-tdk5a/4",
+        #     api_key=api_key_all
+        # )
         yolo_frame_stride = 1
         for idx in range(0, len(frame_names), yolo_frame_stride):
             start_frame = idx
-            detected_labels, detected_bboxes = yolo_detect(model, frame_names, start_frame, 
-                                                           yolo_confidence, yolo_iou_threshold)
-            string_counts = Counter(detected_labels)
-            print(string_counts)
-            if "basketball" in string_counts:
-                if string_counts["basketball"] == 1:
+            # all_labels, all_bboxes = yolo_detect(model_all, frame_names, start_frame, 
+            #                                     yolo_confidence[0], yolo_iou_threshold[0])
+            player_ref_labels, player_ref_bboxes = yolo_detect(model_player_ref, frame_names, start_frame, 
+                                                               yolo_confidence[0], yolo_iou_threshold[0])
+            bball_labels, bball_bboxes = yolo_detect(model_bball, frame_names, start_frame, 
+                                                    yolo_confidence[1], yolo_iou_threshold[1])
+            print("Frame ", idx)
+            string_counts = Counter(player_ref_labels)
+            if len(bball_labels) == 1 and "player" in string_counts:
+                player_count = string_counts["player"]
+                if player_count >= 7:
+                    detected_labels = bball_labels + player_ref_labels
+                    detected_bboxes = bball_bboxes + player_ref_bboxes
                     image = load_image(frame_names, start_frame, video_path="output_video_frames")
                     plot_image(image, detected_labels, detected_bboxes)
                     break
@@ -516,18 +532,18 @@ def process_video(video_path,
     return r"output\output.gif"
     
 if __name__ == "__main__":
-    video_path = r"Videos\Test Set Basketball Game.mp4"
+    video_path = r"Videos\Test Set 2.mp4"
     detector = "YOLO"
-    dino_box_thresholds = [0.35, 0.35]
-    dino_text_thresholds = [0.35, 0.35]
-    yolo_confidence = 0.4
-    yolo_iou_threshold = 0.8
+    dino_box_threshold = [0.35, 0.35]
+    dino_text_threshold = [0.35, 0.35]
+    yolo_confidence = [0.3, 0.75]
+    yolo_iou_threshold = [0.7, 0.5]
     process_video(video_path=video_path,
                   detector=detector,
-                  dino_box_thresholds=dino_box_thresholds,
-                  dino_text_thresholds=dino_text_thresholds,
+                  dino_box_threshold=dino_box_threshold,
+                  dino_text_threshold=dino_text_threshold,
                   yolo_confidence=yolo_confidence,
                   yolo_iou_threshold=yolo_iou_threshold,
-                  frame_len=20,
-                  frame_stride=3,
+                  frame_len=200,
+                  frame_stride=5,
                   gif_duration=100)
