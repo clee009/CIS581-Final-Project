@@ -1,4 +1,5 @@
 import os
+import glob
 import io
 import numpy as np
 import torch
@@ -20,6 +21,10 @@ def video_to_frames(video_path, output_dir='output_video_frames'):
     Extracts frames from a video file and saves them as image files.
     """
     os.makedirs(output_dir, exist_ok=True)
+
+    # Deletes all current files in output directory
+    for file_path in glob.glob(f"{output_dir}/*"):
+        os.remove(file_path)
 
     # Open the video file
     video_capture = cv2.VideoCapture(video_path)
@@ -125,11 +130,11 @@ def plot_image(pil_img, labels, boxes):
     ax = plt.gca()
     
     for label, (xmin, ymin, xmax, ymax) in zip(labels, boxes):
-        color = label_to_color[label]  # Get the color for the current label
+        color = label_to_color[label]
         ax.add_patch(plt.Rectangle((xmin, ymin), xmax - xmin, ymax - ymin,
                                    fill=False, color=color, linewidth=3))
         label_text = f'{label}'
-        ax.text(xmin, ymin, label_text, fontsize=6, color='white')  # Adjust font size and color
+        ax.text(xmin, ymin, label_text, fontsize=6, color='white')
     
     plt.axis('off')
     plt.show()
@@ -198,27 +203,19 @@ def yolo_detect(model, frame_names, start_frame, confidence, iou_threshold):
 def generate_bounding_box_dict(video_segments, frame_key):
     """
     Calculate bounding boxes for segmented objects from binary masks in a video frame.
-
-    Args:
-        video_segments (dict): Dictionary containing segmentation data per object,
-                               where each object has a label and a binary mask.
-        frame_key (str): The key for the frame (e.g., file name).
-
-    Returns:
-        dict: A dictionary in CreateML format containing annotations for the frame.
     """
-    annotations = []  # List to store annotations for each object
+    annotations = []
 
     for obj_id, data in video_segments.items():
-        mask = data["mask"].squeeze()  # Remove any singleton dimension if present
-        label = data["label"]  # Retrieve label from the dictionary
+        mask = data["mask"].squeeze()
+        label = data["label"]
 
         # Find the non-zero mask coordinates (where the object is segmented)
         coords = np.column_stack(np.where(mask > 0))  # coords is an array of [y, x] pairs
 
         if coords.shape[0] > 0:  # Check if the mask has any segmented pixels
-            ymin, xmin = coords.min(axis=0)  # Minimum y and x coordinates
-            ymax, xmax = coords.max(axis=0)  # Maximum y and x coordinates
+            ymin, xmin = coords.min(axis=0)
+            ymax, xmax = coords.max(axis=0)
             width = xmax - xmin
             height = ymax - ymin
 
@@ -262,7 +259,7 @@ def save_segmented_frames(video_path, frame_names, video_segments, start_frame, 
     Returns list of frames with segmentation masks overlaid as PIL Images.
     """
     if output_dir is not None:
-        os.makedirs(output_dir, exist_ok=True)  # Ensure the output directory exists
+        os.makedirs(output_dir, exist_ok=True)
 
     frames_list = []  # List to store images
 
@@ -300,12 +297,6 @@ def save_segmented_frames(video_path, frame_names, video_segments, start_frame, 
 def save_gif(frames_list, output_gif_path, duration=100, loop=0):
     """
     Saves a list of PIL Image frames as an animated GIF.
-    
-    Parameters:
-    - frames_list: list of PIL Image objects.
-    - output_gif_path: file path to save the output GIF.
-    - duration: duration to display each frame in milliseconds.
-    - loop: number of times the GIF should loop (0 means infinite).
     """
     if not frames_list:
         print("No frames to save.")
@@ -323,14 +314,9 @@ def save_gif(frames_list, output_gif_path, duration=100, loop=0):
         loop=loop
     )
 
-def save_frames_as_video_opencv(frames_list, output_video_path, fps=24):
+def save_frames_as_video(frames_list, output_video_path, fps=24):
     """
     Saves a list of PIL Image frames as an MP4 video using OpenCV.
-
-    Parameters:
-    - frames_list: list of PIL Image objects.
-    - output_video_path: file path to save the output video.
-    - fps: frames per second for the output video.
     """
     if not frames_list:
         print("No frames to save.")
@@ -397,7 +383,7 @@ def process_video(video_path,
             string_counts = Counter(detected_labels)
             print(string_counts)
             if "basketball" in string_counts:
-                if string_counts["basketball"] == 1:
+                if string_counts["basketball"] == 1 and string_counts["players"] >= 5:
                     image = load_image(frame_names, start_frame, video_path="output_video_frames")
                     plot_image(image, detected_labels, detected_bboxes)
                     break
@@ -526,13 +512,13 @@ def process_video(video_path,
 
     # Create a GIF from the frames_list
     print("Creating video and gif")
-    save_frames_as_video_opencv(frames_list, r"output\output.mp4", fps=24)
+    save_frames_as_video(frames_list, r"output\output.mp4", fps=24)
     save_gif(frames_list, r"output\output.gif", duration=gif_duration, loop=0)
 
     return r"output\output.gif"
     
 if __name__ == "__main__":
-    video_path = r"Videos\Test Set 2.mp4"
+    video_path = r"Videos\Test Set 1.mp4"
     detector = "YOLO"
     dino_box_threshold = [0.35, 0.35]
     dino_text_threshold = [0.35, 0.35]
@@ -544,6 +530,6 @@ if __name__ == "__main__":
                   dino_text_threshold=dino_text_threshold,
                   yolo_confidence=yolo_confidence,
                   yolo_iou_threshold=yolo_iou_threshold,
-                  frame_len=200,
+                  frame_len=50,
                   frame_stride=5,
-                  gif_duration=100)
+                  gif_duration=200)
