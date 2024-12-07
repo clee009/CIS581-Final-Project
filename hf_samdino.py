@@ -383,7 +383,8 @@ def process_video(video_path,
             string_counts = Counter(detected_labels)
             print(string_counts)
             if "basketball" in string_counts:
-                if string_counts["basketball"] == 1 and string_counts["players"] >= 5:
+                if string_counts["basketball"] == 1 and string_counts["players"] >= 7:
+                    print("Starting frame ", idx)
                     image = load_image(frame_names, start_frame, video_path="output_video_frames")
                     plot_image(image, detected_labels, detected_bboxes)
                     break
@@ -416,11 +417,11 @@ def process_video(video_path,
                                                                yolo_confidence[0], yolo_iou_threshold[0])
             bball_labels, bball_bboxes = yolo_detect(model_bball, frame_names, start_frame, 
                                                     yolo_confidence[1], yolo_iou_threshold[1])
-            print("Frame ", idx)
             string_counts = Counter(player_ref_labels)
             if len(bball_labels) == 1 and "player" in string_counts:
                 player_count = string_counts["player"]
                 if player_count >= 7:
+                    print("Starting frame ", idx)
                     detected_labels = bball_labels + player_ref_labels
                     detected_bboxes = bball_bboxes + player_ref_bboxes
                     image = load_image(frame_names, start_frame, video_path="output_video_frames")
@@ -499,21 +500,21 @@ def process_video(video_path,
     #### JUSTIN INCLUDE HIS CODE HERE ####
 
 
-    # Save segmented frames and collect them in frames_list
-    print("Saving segmented frames")
-    frames_list = save_segmented_frames(
-        video_path="output_video_frames",
-        frame_names=frame_names,
-        video_segments=video_segments,
-        start_frame=start_frame,
-        frame_stride=frame_stride,
-        output_dir=None
-    )
+    # # Save segmented frames and collect them in frames_list
+    # print("Saving segmented frames")
+    # frames_list = save_segmented_frames(
+    #     video_path="output_video_frames",
+    #     frame_names=frame_names,
+    #     video_segments=video_segments,
+    #     start_frame=start_frame,
+    #     frame_stride=frame_stride,
+    #     output_dir=None
+    # )
 
-    # Create a GIF from the frames_list
-    print("Creating video and gif")
-    save_frames_as_video(frames_list, r"output\output.mp4", fps=24)
-    save_gif(frames_list, r"output\output.gif", duration=gif_duration, loop=0)
+    # # Create a GIF from the frames_list
+    # print("Creating video and gif")
+    # save_frames_as_video(frames_list, r"output\output.mp4", fps=24)
+    # save_gif(frames_list, r"output\output.gif", duration=gif_duration, loop=0)
 
     return r"output\output.gif"
     
