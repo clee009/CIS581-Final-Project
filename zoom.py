@@ -320,7 +320,7 @@ def next_frame_zoom(H, W, y_min, x_min, zoom, image):
 
 
 
-def zoom_all(parsed_data, base_path, selected_ids, selected_labels, nearest_to_ball = 0, x_padding = 10, y_padding = 10, x_interp = 0.5, y_interp = 0.5, zoom_interp = 0.5, H_out = 0, W_out = 0):
+def zoom_all(parsed_data, base_path, use_pose, selected_ids, selected_labels, nearest_to_ball = 0, x_padding = 10, y_padding = 10, x_interp = 0.5, y_interp = 0.5, zoom_interp = 0.5, H_out = 0, W_out = 0):
 
     results = None
 
@@ -441,9 +441,13 @@ def zoom_all(parsed_data, base_path, selected_ids, selected_labels, nearest_to_b
         if prev_zoom == -1:
             prev_y_min, prev_x_min, prev_zoom = y_min, x_min, zoom
 
-        new_y_interp, new_x_interp, new_zoom_interp = get_interp_vals(y_min, x_min, zoom, prev_y_min, prev_x_min, prev_zoom, y_interp, x_interp, zoom_interp, ref_vecs_2d, vec_3d_changes)
+        if use_pose:
+            new_y_interp, new_x_interp, new_zoom_interp = get_interp_vals(y_min, x_min, zoom, prev_y_min, prev_x_min, prev_zoom, y_interp, x_interp, zoom_interp, ref_vecs_2d, vec_3d_changes)
 
-        y_min, x_min, zoom = interpolate_zoom(y_min, x_min, zoom, prev_y_min, prev_x_min, prev_zoom, new_y_interp, new_x_interp, new_zoom_interp)
+            y_min, x_min, zoom = interpolate_zoom(y_min, x_min, zoom, prev_y_min, prev_x_min, prev_zoom, new_y_interp, new_x_interp, new_zoom_interp)
+
+        else:
+            y_min, x_min, zoom = interpolate_zoom(y_min, x_min, zoom, prev_y_min, prev_x_min, prev_zoom, y_interp, x_interp, zoom_interp)
 
 
         res = next_frame_zoom(H_out, W_out, y_min, x_min, zoom, image_ar)
@@ -657,13 +661,13 @@ def parse_json(base_path, file_path):
 
 
 
-def zoom_save_gif(out_file, fps, selected_ids, selected_labels, nearest_to_ball, x_padding, y_padding, x_interp, y_interp, zoom_interp):
+def zoom_save_gif(out_file, use_pose, fps, selected_ids, selected_labels, nearest_to_ball, x_padding, y_padding, x_interp, y_interp, zoom_interp):
     base_path = 'C:/Users/justi/Documents/GitHub/CIS581-Final-Project/'
 
     file_path = 'output/annot.json'  # Path to your JSON file
     parsed_data = parse_json(base_path, file_path)
     corrected_data = error_correction_json(parsed_data)
-    results = zoom_all(corrected_data, base_path, selected_ids, selected_labels, nearest_to_ball, x_padding, y_padding, x_interp, y_interp, zoom_interp)
+    results = zoom_all(corrected_data, base_path, use_pose, selected_ids, selected_labels, nearest_to_ball, x_padding, y_padding, x_interp, y_interp, zoom_interp)
     save_gif(results, out_file, fps)
     return out_file
 
