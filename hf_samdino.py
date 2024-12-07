@@ -12,6 +12,8 @@ from sam2.build_sam import build_sam2_video_predictor
 from collections import Counter
 import inference
 from dotenv import load_dotenv
+from demo_custom_ours import human_pose_estimation
+from data_rearrange import integration
 
 # Utils
 
@@ -510,7 +512,16 @@ def process_video(video_path,
     with open(annot_file, "w") as f:
         json.dump(all_annot, f, indent=4)
 
+    
+    #### ZIYAN INCLUDE CODE HERE ####
+    human_pose_whole_dataset = human_pose_estimation("output_video_frames", render_img=False, side_view=False, top_view=False)
+    integrated_prediction = integration(all_annot, human_pose_whole_dataset)
+    
     #### JUSTIN INCLUDE HIS CODE HERE ####
+
+
+
+    
 
 
     # Save segmented frames and collect them in frames_list
