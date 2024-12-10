@@ -329,7 +329,7 @@ def save_frames_as_video(frames_list, output_video_path, fps=24):
     height, width, layers = frames[0].shape
 
     # Define the codec and create VideoWriter object
-    fourcc = cv2.VideoWriter_fourcc(*'mp4v')  # Use 'mp4v' or 'XVID' depending on your system
+    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
     out = cv2.VideoWriter(output_video_path, fourcc, fps, (width, height))
 
     for frame in frames:
@@ -339,7 +339,6 @@ def save_frames_as_video(frames_list, output_video_path, fps=24):
     print(f"Video saved to {output_video_path}")
 
 # Main function
-
 def process_video(video_path,
                   detector="Grounding DINO",
                   dino_box_threshold=[0.35, 0.35],
@@ -497,9 +496,6 @@ def process_video(video_path,
     with open(annot_file, "w") as f:
         json.dump(all_annot, f, indent=4)
 
-    #### JUSTIN INCLUDE HIS CODE HERE ####
-
-
     # # Save segmented frames and collect them in frames_list
     # print("Saving segmented frames")
     # frames_list = save_segmented_frames(
@@ -516,7 +512,7 @@ def process_video(video_path,
     # save_frames_as_video(frames_list, r"output\output.mp4", fps=24)
     # save_gif(frames_list, r"output\output.gif", duration=gif_duration, loop=0)
 
-    return r"output\output.gif"
+    return
     
 if __name__ == "__main__":
     video_path = r"Videos\Test Set 2_1.mp4"
