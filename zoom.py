@@ -276,7 +276,7 @@ def get_interp_vals(y1, x1, zoom1, y2, x2, zoom2, y_interp_in, x_interp_in, zoom
     # y_interp, x_interp, zoom_interp = change, change, change
 
 
-    print(y_interp, x_interp, zoom_interp)
+    # print(y_interp, x_interp, zoom_interp)
 
     # y_interp, x_interp, zoom_interp = y_interp_in, x_interp_in, zoom_interp_in
 
@@ -664,6 +664,7 @@ def parse_json(file_path):
 def zoom_save_gif(out_file, use_pose, fps, selected_ids, selected_labels, nearest_to_ball, x_padding, y_padding, x_interp, y_interp, zoom_interp):
     # base_path = 'C:/Users/justi/Documents/GitHub/CIS581-Final-Project/'
 
+    
     file_path = 'output/annot.json'  # Path to your JSON file
     # parsed_data = parse_json(base_path, file_path)
     parsed_data = parse_json(file_path)
