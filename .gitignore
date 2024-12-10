@@ -1,2 +1,3 @@
 Videos/
 *.pkl
+__pycache__/
