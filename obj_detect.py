@@ -496,27 +496,27 @@ def process_video(video_path,
     with open(annot_file, "w") as f:
         json.dump(all_annot, f, indent=4)
 
-    # # Save segmented frames and collect them in frames_list
-    # print("Saving segmented frames")
-    # frames_list = save_segmented_frames(
-    #     video_path="output_video_frames",
-    #     frame_names=frame_names,
-    #     video_segments=video_segments,
-    #     start_frame=start_frame,
-    #     frame_stride=frame_stride,
-    #     output_dir=None
-    # )
+    # Save segmented frames and collect them in frames_list
+    print("Saving segmented frames")
+    frames_list = save_segmented_frames(
+        video_path="output_video_frames",
+        frame_names=frame_names,
+        video_segments=video_segments,
+        start_frame=start_frame,
+        frame_stride=frame_stride,
+        output_dir="output_segmented_frames"
+    )
 
-    # # Create a GIF from the frames_list
-    # print("Creating video and gif")
-    # save_frames_as_video(frames_list, r"output\output.mp4", fps=24)
-    # save_gif(frames_list, r"output\output.gif", duration=gif_duration, loop=0)
+    # Create a GIF from the frames_list
+    print("Creating video and gif")
+    save_frames_as_video(frames_list, r"output\output.mp4", fps=24)
+    save_gif(frames_list, r"output\output.gif", duration=gif_duration, loop=0)
 
     return
     
 if __name__ == "__main__":
     video_path = r"Videos\Test Set 1.mp4"
-    detector = "Grounding DINO"
+    detector = "YOLO"
     dino_box_threshold = [0.35, 0.35]
     dino_text_threshold = [0.35, 0.35]
     yolo_confidence = [0.3, 0.75]
