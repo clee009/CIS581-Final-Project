@@ -382,7 +382,7 @@ def process_video(video_path,
             string_counts = Counter(detected_labels)
             print(string_counts)
             if "basketball" in string_counts:
-                if string_counts["basketball"] == 1 and string_counts["players"] >= 7:
+                if string_counts["basketball"] == 1 and string_counts["player"] >= 7:
                     print("Starting frame ", idx)
                     image = load_image(frame_names, start_frame, video_path="output_video_frames")
                     plot_image(image, detected_labels, detected_bboxes)
@@ -515,8 +515,8 @@ def process_video(video_path,
     return
     
 if __name__ == "__main__":
-    video_path = r"Videos\Test Set 2_1.mp4"
-    detector = "YOLO"
+    video_path = r"Videos\Test Set 1.mp4"
+    detector = "Grounding DINO"
     dino_box_threshold = [0.35, 0.35]
     dino_text_threshold = [0.35, 0.35]
     yolo_confidence = [0.3, 0.75]
