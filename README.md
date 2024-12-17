@@ -1,4 +1,4 @@
-BASKETBALL GAME AUTOZOOM README
+BASKETBALL GAME AUTOZOOM
 
 This basketball game autozoom program can automatically perform zooming of a basketball game. To run this, you will need to install the following libraries (see installation instruction links):
 
